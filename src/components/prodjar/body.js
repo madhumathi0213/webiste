@@ -1,6 +1,6 @@
 import React from 'react'
 import "./body.css"
-import background from "../images/prodjar/background.png"
+import background from "../../images/prodjar/background.png"
 const body = (props) =>
 {
     return(

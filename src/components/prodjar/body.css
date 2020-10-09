@@ -1,15 +1,16 @@
 .main_class{
     margin: 0px 80px;
+    max-width: 100vw;
     display: flex;
 }
 .main_class1
 {
-    flex-basis: 50vw;
+    flex-basis:40vw;
     /* margin-right: 50px; */
 }
 .main_class2
 {
-    flex-basis: 50vw;    
+    flex-basis: 60vw;    
 }
 
 .table{
@@ -17,7 +18,7 @@
 }
 .line{
     margin:0px 80px;
-    border-top: 2px dashed #B0B0B0;
+    border-top: 2px dashed #B0B0B0  ;
 }
 .line_2{
     margin-bottom: 100px;

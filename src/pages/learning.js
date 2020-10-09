@@ -1,6 +1,6 @@
 import React, { Component } from "react"
-import Header from "./header"
-import Body from "./body"
+import Header from "../components/prodjar/header"
+import Body from "../components/prodjar/body"
 import image_1 from "../images/prodjar/image_1.png"
 import image_2 from "../images/prodjar/image_2.png"
 import image_3 from "../images/prodjar/image_3.png"

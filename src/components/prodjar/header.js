@@ -1,6 +1,8 @@
 import React from "react"
-import logo from "../images/prodjar/top_logo.png"
-import prodjar from "../images/prodjar/prodjar.png"
+import logo from "../../images/prodjar/top_logo.png"
+import prodjar from "../../images/prodjar/prodjar.png"
+// import logo from "../..images/prodjar/top_logo.png"
+// import prodjar from "../..images/prodjar/prodjar.png"
 import "./header.css"
 
 
