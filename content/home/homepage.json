@@ -1,0 +1,40 @@
+{
+  "title": "Pentafox",
+  "landingImage": "../../src/images/landing.jpg",
+  "landingTitle": "Empower your business with IT",
+  "landingDescription": "landing-description.md",
+  "content": "intro.md",
+  "bannerSection": [{
+    "title": "Platform Engineering",
+    "content": "Grow your business with the power of cloud",
+    "image": "../../src/images/platform-banner.jpg"
+  },
+  {
+    "title": "Digital Strategy",
+    "content": "Let us help you increase your digital footprint",
+    "image": "../../src/images/digital-banner.jpg"
+  },
+  {
+    "title": "Machine Learning",
+    "content": "Enable your applications with Intelligence",
+    "image": "../../src/images/cv-banner.jpg"
+  }],
+  "footer": {
+    "email": "hello@pentafox.in",
+    "mobile": "+91 90432 69523",
+    "address": {
+      "mobile": [
+        "Pentafox Technologies Pvt Ltd 91springboard, 5th floor, Trifecta Adatto, ITPL main road, Garudacharpalya, Bengaluru 560048"
+      ],
+      "desktop": [
+        "Pentafox Technologies Pvt Ltd",
+        "91springboard, 5th floor, Trifecta Adatto,",
+        "ITPL main road, Garudacharpalya",
+        "Bengaluru 560048"
+      ]
+    },
+    "facebook": "https://www.facebook.com/pentafox.in",
+    "linkedin": "https://linkedin.com/company/pentafox-tech",
+    "prodjar": "../../src/images/prodjar.png"
+  }
+}
