@@ -1,64 +1,54 @@
 .main_class{
     margin: 0px 80px;
-    max-width: 100vw;
     display: flex;
 }
 .main_class1
 {
-    flex-basis:40vw;
+    flex-basis:60vw;
     /* margin-right: 50px; */
 }
 .main_class2
 {
-    flex-basis: 60vw;    
-}
-
-.table{
+    background-image: url("../../images/prodjar/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     display: flex;
+    background-position: center;
 }
 .line{
     margin:0px 80px;
     border-top: 2px dashed #B0B0B0  ;
 }
-.line_2{
-    margin-bottom: 100px;
-    margin : 120px 80px 100px 80px;
-    border-top: 2px dashed #B0B0B0;
-}
 .title{
     font-family: Lato;
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 30px;
+    line-height: 36px;
     color: #3E3E3E;
 }
 .sub_title{
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 24px;
     color: #D31E21;
 }
 .topic{
     font-family: Lato;
     font-style: normal;
     font-weight: 800;
-    font-size: 28px;
-    line-height: 39px;
+    font-size: 20px;
+    line-height: 24px;
     color: #3E3E3E;
 }
 .image{
-    z-index: 1;
-    position: absolute;
-}
-.background{
-     margin-top: -100px;
-     margin-left: -70px;
-     width: 800px;
-     z-index: -1;
-     position: absolute; 
+    height: 75%;
 }
 .description{
     font-family: Nunito;
@@ -66,30 +56,34 @@
     /* width: 400px; */
     margin-right: 100px;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 20px;
     color: #3E3E3E;
 }
-.table_content1 , .table_content3{
+
+.table{
+    display: flex;
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    /* letter-spacing: 0.1em; */
+}
+.table_content1 , .table_content3
+{
     color: #888888;
+    text-transform: uppercase;
+
 }
 .table_content3 , .table_content4{
 
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .table_content2 , .table_content4
 {
     font-family: Lato;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 31px;
-    color: #3E3E3E;
+    
 }

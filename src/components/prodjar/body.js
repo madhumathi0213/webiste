@@ -1,6 +1,5 @@
 import React from 'react'
 import "./body.css"
-import background from "../../images/prodjar/background.png"
 const body = (props) =>
 {
     return(
@@ -22,11 +21,11 @@ const body = (props) =>
                  <p className="table_content4">{props.table_content4}</p>
              </div>
              </div>
+            <p>See More image  <a href='#'> Click here</a></p>
+
         </div>
         <div className="main_class2">
-            {/* <a href='#'> Click here</a> */}
             <img className="image" src={props.image}></img>
-            <img className="background" src={background}></img>
         </div>
         </div>
         <div className="line_2"></div>
