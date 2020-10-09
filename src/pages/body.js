@@ -7,7 +7,7 @@ const body = (props) =>
     <div>
         <div className="line"></div>
         <div className="main_class">
-        <div>
+        <div className="main_class1">
              <h1 className="title">{props.title}</h1>
              <h3 className="sub_title">{props.sub_title}</h3>
              <h2 className="topic">{props.topic}</h2>
@@ -23,7 +23,7 @@ const body = (props) =>
              </div>
              </div>
         </div>
-        <div>
+        <div className="main_class2">
             {/* <a href='#'> Click here</a> */}
             <img className="image" src={props.image}></img>
             <img className="background" src={background}></img>

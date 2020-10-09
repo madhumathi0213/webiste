@@ -2,6 +2,16 @@
     margin: 0px 80px;
     display: flex;
 }
+.main_class1
+{
+    flex-basis: 50vw;
+    /* margin-right: 50px; */
+}
+.main_class2
+{
+    flex-basis: 50vw;    
+}
+
 .table{
     display: flex;
 }
@@ -10,11 +20,10 @@
     border-top: 2px dashed #B0B0B0;
 }
 .line_2{
-    /* margin-bottom: 100px; */
-    margin : 90px 80px 100px 80px;
+    margin-bottom: 100px;
+    margin : 120px 80px 100px 80px;
     border-top: 2px dashed #B0B0B0;
 }
-
 .title{
     font-family: Lato;
     font-style: normal;
@@ -40,19 +49,17 @@
     color: #3E3E3E;
 }
 .image{
-    margin-left: 150px;
     z-index: 1;
     position: absolute;
 }
 .background{
-    margin-left: 100px;
     z-index: -1;
      position: absolute; 
 }
 .description{
     font-family: Nunito;
     font-style: normal;
-    width: 400px;
+    /* width: 400px; */
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
