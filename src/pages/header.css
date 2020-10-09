@@ -3,11 +3,19 @@
     font-family: Nunito;
 
 }
+.sub{
+    display: flex;
+    justify-content: center;
+}
 .sub_head{
     display: flex;
-    flex-direction: column;
-    text-align: center;
-
+    text-align:  center;
+    width: 50%;
+	flex-direction: column;
+	justify-content: center;
+	font-weight: 600;
+	position: relative;
+	/* background: #EBECED; */
 }
 .para_1{
 margin-top: 100px;

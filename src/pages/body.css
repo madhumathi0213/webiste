@@ -53,13 +53,17 @@
     position: absolute;
 }
 .background{
-    z-index: -1;
+     margin-top: -100px;
+     margin-left: -70px;
+     width: 800px;
+     z-index: -1;
      position: absolute; 
 }
 .description{
     font-family: Nunito;
     font-style: normal;
     /* width: 400px; */
+    margin-right: 100px;
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
